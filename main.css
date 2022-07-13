@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background: url(bg.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-container{
+    max-width: 330px;
+    height: 420px;
+    background: #C9C0BB;
+    color: #000;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 70px 30px;
+}
+
+.user{
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 88px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    border-radius: 50%;
+}
+
+h2{
+    padding: 0 0 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.login-container p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.login-container input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.login-container input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    color: black;
+    height: 40px;
+    font-size: 1em;
+}
+
+.login-container input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: white;
+    background: #000;
+    text-align: center;
+    cursor: pointer;
+   
+    
+}
+
+
+.login-container input[type="submit"]:hover{
+    background-color: orangered;
+}
+
+.login-container a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+}
+
+.login-container a:hover{
+    color: purple;
+}
